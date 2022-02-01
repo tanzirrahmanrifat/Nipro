@@ -19,7 +19,7 @@ body{
 header{
     padding: 8px 0;
 }
-.c-logo{}
+
 .c-logo a{
     font-family: 'Lato', sans-serif;
     font-size: 30px;
@@ -31,8 +31,6 @@ header{
     box-shadow: 0 0 0 .12rem;
 }
 
-.menu{}
-.menu li{}
 .menu li a{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -47,8 +45,6 @@ header{
   color: #333 !important;
 }
 
-.c-search{}
-.c-search a i{}
 .dropdown-toggle::after{
     display: none;
 }
@@ -85,10 +81,7 @@ header{
 .c-search-box input i{
     margin-top: 20px;
 }
-/* .c-search-box i:hover{
-    font-size: 20px;
-    color: rgb(25, 160, 37);
-} */
+
 
 
 /* header area end  */
@@ -152,7 +145,7 @@ header{
 /* slider end here  */
 
 /* welcome section start  */
-.welcome{}
+
 .w-wrapper{
     padding: 50px 0;
     position: relative;
@@ -180,9 +173,6 @@ header{
     margin: 50px 0;
 }
 .b-wrapper {
-    /* border: 1px solid #e6e6e6; */
-    /* position: relative; */
-    /* padding: 38px 0; */
     color: #8e8e8e;
     transition: .5s;
 }
@@ -240,20 +230,20 @@ fieldset:hover{
 }
 
 .b-wrapper:hover{
-    /* border: 1px solid #333; */
     color: #333;
+}
+.btn{
+    border-radius: 0 !important;
 }
 
 /* branding section end  */
 
 
 /* about section start  */
-.about{}
-.ab-img{}
+
 .ab-img img {
     border-radius: 2%;
 }
-.ab-content{}
 .ab-content h1{
     font-size: 30px;
     text-transform: uppercase;
@@ -366,7 +356,6 @@ fieldset:hover{
 }
 .work-img:hover .icon{
     opacity: 1;
-    /* background: #fff; */
 }
 .work-img:hover{
     opacity: .8;
@@ -482,7 +471,7 @@ fieldset:hover{
     list-style: none;
     margin: 0 -27px;
 }
-.h-icon ul li {}
+
 .h-icon ul li a {
     color: #8e8e8e;
     font-size: 26px;
@@ -497,7 +486,6 @@ fieldset:hover{
 }
 .who-img:hover .h-icon{
     opacity: 1;
-    /* background: #fff; */
 }
 .who-img:hover{
     opacity: 1;
@@ -517,9 +505,7 @@ fieldset:hover{
     font-size: 30px;
     font-weight: 400;
 }
-/* .who-wrapper {
-    padding: 70px 0;
-} */
+
 .c-price-line{
     border-left: 2px solid black;
     height: 32px;
@@ -529,9 +515,6 @@ fieldset:hover{
   
 }
 .pr-wrapper {
-    /* border: 1px solid #e6e6e6; */
-    /* position: relative; */
-    /* padding: 38px 0; */
     color: #8e8e8e;
     transition: .5s;
 }
@@ -597,7 +580,6 @@ fieldset:hover{
     padding: 22px 0;
     background: #f8f8f8;
 }
-.respo-c{}
 .respo-c p{
     margin: 0;
     font-size: 18px;
@@ -623,8 +605,8 @@ fieldset:hover{
 }
 .row.bor {
     border: 1px solid #8e8e8e;
-   width: 93%;
-  }
+    width: 93%;
+}
 .c_content{
     position: relative;
 }
@@ -636,10 +618,8 @@ fieldset:hover{
     top: 0px;
     bottom: 0;
     background-color: #f8f8f8;
-  }
-.f-c-btn span{
-   
 }
+
 .c_img {
     padding: 64px 9px;
     border-left: 1px solid #8e8e8e;
@@ -661,7 +641,7 @@ fieldset:hover{
 .c_content h5 {
     font-size: 18px;
 }
-.c_content p{}
+
 .rotate-1{
     margin-top: 5px;
     -webkit-transform: rotate(-269deg);
@@ -694,12 +674,9 @@ fieldset.contact {
     text-transform: uppercase;
 }
 legend.contact {
-    font-size: 18px !important;
+     font-size: 18px !important;
      font-weight: bold !important;
      color: #333333;
-}
-fieldset:hover{
-    /* border: 1px solid #333 !important; */
 }
 
 .input-c{
@@ -764,8 +741,7 @@ fieldset:hover{
 
 }
 
-.c-f-ul{}
-.c-f-ul li{}
+
 .c-f-ul li a {
     border: 1px solid #8e8e8e;
     padding: 15px;
@@ -787,13 +763,10 @@ footer{
     padding-bottom: 10px;
     color: #fff;
 }
-.main-ul{}
+
 .main-ul li a{
     text-decoration: none;
     color: #fff;
-}
-.main-ul li a:hover{
- 
 }
 /* footer section end  */
 

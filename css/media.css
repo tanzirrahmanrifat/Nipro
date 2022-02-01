@@ -182,6 +182,7 @@ legend.price-scheduler {
 }
   .found-c-btn {
   padding: 247px 0;
+  /* display: none; */
   
   }
  .c_img {
@@ -215,9 +216,12 @@ legend.price-scheduler {
 }
 /* agency section end  */
 /* footer area start  */
-.offset-2{
- margin: 0;
-}
+  .offset-2{
+  margin: 0;
+  }
+  footer {
+  background-size: auto;
+  }
 /* footer area end  */
    
     
