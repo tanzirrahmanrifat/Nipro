@@ -22,7 +22,7 @@
  /* slider start here  */
 
  .c-carousel{
-    margin: 55px 0;
+    margin: 100px 0;
     }
    .c-carousel h2 {
     font-size: 26px;
@@ -50,10 +50,6 @@
  /* brand section start  */
     .brand{
       margin: 0;
-    }
-    legend{
-    width: 50%;
-   
     }
 
     legend.scheduler{
@@ -114,12 +110,19 @@
       bottom: 120px;
     
     }
-    .icon ul li a {
+    .work-img .icon li a {
       font-size: 40px;
+    } 
+    .work-img:hover .icon li a {
+        top: 35%;
+        left: 40%;
     }
-    .icon {
+    .work .details{
+      padding: 0;
+    }
+    /* .icon {
       top: 37%;
-    }
+    } */
     /* work section end  */
       /* chose section start  */
   .chose-wrapper {
@@ -154,8 +157,12 @@
   .h-icon ul {
     margin: 0 -19px;
   }
+
   .h-icon ul li a {
     font-size: 21px;
+  }
+  .h-details{
+    padding: 0 7px;
   }
   .c-who h1{
     font-size: 20px;
@@ -181,25 +188,27 @@ legend.price-scheduler {
   margin: 32px 0;
 }
   .found-c-btn {
-  padding: 247px 0;
-  /* display: none; */
+  padding: 150px 0;
+
   
   }
  .c_img {
   padding: 7px 9px;
-  border-left: 1px solid #8e8e8e;
+ 
  }
  .c_content {
   padding: 17px 8px;
-    padding-top: 17px;
+  padding-top: 17px;
   padding-top: 6px;
-  border-left: 1px solid #8e8e8e;
+ 
  }
 /* founder section end  */
 /* contact section start  */
-.contact legend {
-  width: 51%;
-  
+.input-c input {
+  padding: 8px 5px;
+}
+#Massege {
+  padding: 8px 5px;
 }
 .c.price-btn {
   width: 50%;
@@ -262,7 +271,7 @@ legend.price-scheduler {
    /* slider start here  */
    /* welcome section start  */
   .line{
-    bottom: 252px;
+    bottom: 275px;
    }
    .w-wrapper h1{
     font-size: 25px;
@@ -324,8 +333,15 @@ legend.price-scheduler {
       bottom: 120px;
     
     }
-    .icon ul li a {
+    .work-img .icon li a {
       font-size: 40px;
+    } 
+    .work-img:hover .icon li a {
+        top: 25%;
+        left: 38%;
+    }
+    .work .details{
+      padding: 0;
     }
     /* work section end  */
      /* chose section start  */
@@ -342,6 +358,9 @@ legend.price-scheduler {
     width: 14%;
    
   }
+  .h-details{
+    padding: 0 7px;
+  }
   /* who section end  */
   /* founder section start  */
   .founder {
@@ -351,23 +370,28 @@ legend.price-scheduler {
     width: 100%;
   }
   .c_img {
-      padding: 135px 9px;
+      padding: 0;
    
   }
+  .found-c-btn {
+    padding: 150px 0;
+  
+    
+    }
   .c_img img{
     
   }
   .c_content {
     padding-top: 21px;
   }
-  .found-c-btn{
-    display: none;
-  }
+  
   /* founder section end  */
   /* contact section start  */
-  .contact legend {
-    width: 32%;
-    
+  .input-c input {
+    padding: 8px 5px;
+  }
+  #Massege {
+    padding: 8px 5px;
   }
   .c.price-btn {
     width: 50%;
@@ -465,8 +489,15 @@ legend.price-scheduler {
     bottom: 90px;
   
   }
-  .icon ul li a {
-    font-size: 50px;
+  .work-img .icon li a {
+    font-size: 45px;
+  } 
+  .work-img:hover .icon li a {
+      top: 25%;
+      left: 38%;
+  }
+  .work .details{
+    padding: 0;
   }
   /* work seection end  */
   /* chose section start  */
@@ -503,10 +534,6 @@ legend.price-scheduler {
   }
   /* founder section end  */
    /* contact section start  */
-   .contact legend {
-    width: 25%;
-    
-  }
   
   /* contact section end  */
 }
