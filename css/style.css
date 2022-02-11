@@ -343,8 +343,8 @@ fieldset:hover{
     padding: 7px;
     margin-right: 18px;
     color: #8e8e8e;
-    transition: .5s;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 .c-work ul li:active {
     border: 1px solid #333;
@@ -433,12 +433,8 @@ fieldset:hover{
 .h-details {
     position: absolute; 
     bottom: 0; 
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1; 
+    background: #fff; 
     width: 100%;
-    transition: .5s ease;
-    opacity:0;
     text-align: left;
 }
 .h-details h3{
@@ -458,6 +454,7 @@ fieldset:hover{
     text-align: left;
     left: 0px;
     background: #fff;
+    transition: .5s ease all;
 }
 .h-icon ul {
     list-style: none;
@@ -467,15 +464,13 @@ fieldset:hover{
 .h-icon ul li a {
     color: #8e8e8e;
     font-size: 26px;
+    transition: .5s ease-in-out;
 }
 .h-icon ul li a:hover {
     color: #333;
     
 }
-.who-img:hover .h-details{
-    opacity: 1;
-    background: #fff;
-}
+
 .who-img:hover .h-icon{
     opacity: 1;
 }
