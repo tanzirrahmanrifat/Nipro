@@ -1,8 +1,9 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) { 
    /* header start here  */
-   .menu{
+.menu{
     text-align: right;
+    margin-top: 10px;
 }
 .c-search-box {
     background-color: #fff;
@@ -18,12 +19,17 @@
     margin-top: 0;
     border: none;
 }
+
+.c-logo a {
+    font-size: 25px;
+}
 /* header start here  */  
  /* slider start here  */
 
  .c-carousel{
-    margin: 100px 0;
-    }
+    margin: 80px 0;
+    margin-top: 135px;
+}
    .c-carousel h2 {
     font-size: 26px;
    
@@ -183,12 +189,21 @@ legend.price-scheduler {
   bottom: 50px;
 }
 /* pricing section end  */
+
+/* respo section  */
+.respo-c p {
+  margin-bottom: 15px;
+}
+.respo {
+  padding: 15px 0;
+  text-align: center;
+}
 /* founder section start  */
 .founder {
   margin: 32px 0;
 }
   .found-c-btn {
-  padding: 150px 0;
+    display: none;
 
   
   }
@@ -201,6 +216,9 @@ legend.price-scheduler {
   padding-top: 17px;
   padding-top: 6px;
  
+ }
+ .c-bov {
+  border: none;
  }
 /* founder section end  */
 /* contact section start  */
@@ -230,9 +248,14 @@ legend.price-scheduler {
   }
   footer {
   background-size: auto;
+  text-align: center;
   }
+
 /* footer area end  */
-   
+.go-top a {
+  right: 15px;
+  font-size: 45px;
+}
     
 }
 

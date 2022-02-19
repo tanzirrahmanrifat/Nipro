@@ -19,6 +19,7 @@ body{
 header{
     background-color: #fff;
     padding: 8px 0;
+    box-shadow: 0px 0px 1px 0px #000;
 }
 
 .c-logo a{
@@ -50,9 +51,10 @@ header{
     display: none;
 }
 .c-search-box[data-bs-popper] {
+    margin-top: 0;
+    padding: 14px;
     top: 58px;
     left: -327px;
-    margin-top: 0;
     border: none;
 }
 
@@ -68,13 +70,13 @@ header{
     color: #000 !important;
 }
 .c-search-box input::placeholder{
-    color: #000;
+    color: #8e8e8e;
 }
 .c-search-box input:focus {
     background-color: #fff;
-    border-color: #333;
     outline: 0;
     box-shadow: none;
+    color: #333;
    
 }
 .c-search-box input i{
